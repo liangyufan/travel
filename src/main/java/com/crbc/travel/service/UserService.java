@@ -9,4 +9,11 @@ public interface UserService {
      * @return
      */
     boolean register(User user);
+
+    /**
+     * 激活用户
+     * @param code
+     * @return
+     */
+    boolean active(String code);
 }
